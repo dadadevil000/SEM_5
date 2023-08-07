@@ -9,3 +9,14 @@ set1 ={"SITCOE"}
 print(set1)
 s2=set("SITCOE")
 print(s2)
+s3 =set(["SITCOE"])
+print(s3)
+s4=set(["SITCOE","Hello","SITCOE"])
+print(s4)
+Fruitset={"Apple","Banana","Grapes"}
+print(Fruitset)
+#Fruitset=frozenset(Fruitset)
+Fruitset.add("Mango")
+print(Fruitset)
+a = True
+print(type(a))
