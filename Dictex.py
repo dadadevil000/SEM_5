@@ -20,3 +20,17 @@ Fruitset.add("Mango")
 print(Fruitset)
 a = True
 print(type(a))
+prime_numbers=[2,3,5,7]
+byte_array=bytes(prime_numbers)
+print(byte_array)
+#byte_array.append(11)
+byte_array=bytearray(prime_numbers)
+byte_array.append(11)
+print(byte_array)
+random_byte_array = bytearray('ABC','utf-8')
+mv=memoryview(random_byte_array)
+print(mv[0])
+prime_numbers=[2,3,5,7]
+prime_numbers=bytearray(prime_numbers)
+mv =memoryview(prime_numbers)
+print(mv[0])
